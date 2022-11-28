@@ -461,12 +461,11 @@ NUM_BUFFER_SIZE:
 
 	.type	.L.str.3,@object        # @.str.3
 .L.str.3:
-	.asciz	"%d\n"
+	.asciz	"%d\\n"
 	.size	.L.str.3, 4
 
 	.ident	"clang version 10.0.0-4ubuntu1 "
 	.section	".note.GNU-stack","",@progbits
-
 """;
     public BuiltinFunctionASMPrinter(String dst) throws IOException {
         FileOutputStream out = new FileOutputStream(dst);
