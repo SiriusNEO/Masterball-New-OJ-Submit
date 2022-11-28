@@ -16,7 +16,7 @@ public class Compiler {
 
 class BuiltinFunctionASMPrinter {
     String builtin_s_as_literal = """
-    .text
+	.text
 	.file	"builtin.c"
 	.globl	_bot_malloc             # -- Begin function _bot_malloc
 	.p2align	2
