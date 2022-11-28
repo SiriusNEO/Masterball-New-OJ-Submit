@@ -466,6 +466,7 @@ NUM_BUFFER_SIZE:
 
 	.ident	"clang version 10.0.0-4ubuntu1 "
 	.section	".note.GNU-stack","",@progbits
+
 """;
     public BuiltinFunctionASMPrinter(String dst) throws IOException {
         FileOutputStream out = new FileOutputStream(dst);
