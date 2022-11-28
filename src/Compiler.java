@@ -8,8 +8,8 @@ public class Compiler {
         String[] _args = {
             "-oj", "-ir-o", "test.ll", "-opt-o", "test-opt.ll", "-asm-o", "output.s"
         };
-        Masterball.main(_args);
         BuiltinFunctionASMPrinter builtin_printer = new BuiltinFunctionASMPrinter("builtin.s");
+        Masterball.main(_args);
     }
 }
 
