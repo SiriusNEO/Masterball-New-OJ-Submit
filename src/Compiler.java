@@ -1,4 +1,6 @@
 import masterball.Masterball;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class Compiler {
 
